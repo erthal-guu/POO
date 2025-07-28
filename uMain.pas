@@ -26,7 +26,6 @@ uses uClasse;
 
 procedure TForm1.Button1Click(Sender: TObject);
 var personagem : TPersonagem;
-    Player:TPlayer;
 begin
   personagem:=TPersonagem.Create(10,5);
   personagem.Nome := 'Busta';
