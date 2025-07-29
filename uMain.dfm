@@ -51,23 +51,15 @@ object Form1: TForm1
       Width = 121
       Height = 23
       TabOrder = 1
-      TextHint = 'Dano'
+      TextHint = 'Dano Player'
     end
     object Edit2: TEdit
-      Left = 225
+      Left = 385
       Top = 88
       Width = 121
       Height = 23
       TabOrder = 2
-      TextHint = 'Defesa'
-    end
-    object Edit3: TEdit
-      Left = 392
-      Top = 88
-      Width = 121
-      Height = 23
-      TabOrder = 3
-      TextHint = 'Vida'
+      TextHint = 'Dano Boss'
     end
   end
 end
