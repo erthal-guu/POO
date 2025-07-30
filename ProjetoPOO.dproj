@@ -127,7 +127,9 @@
             <Form>Form1</Form>
             <FormType>dfm</FormType>
         </DCCReference>
-        <DCCReference Include="uClasse.pas"/>
+        <DCCReference Include="uPersonagem.pas"/>
+        <DCCReference Include="uPlayer.pas"/>
+        <DCCReference Include="uBoss.pas"/>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

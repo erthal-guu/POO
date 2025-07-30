@@ -1,4 +1,4 @@
-unit uClasse;
+unit uPersonagem;
 
 interface
 
@@ -6,15 +6,14 @@ interface
    //Encapsulamento
 
   type TPersonagem = class
-  private
+  protected
       Nome: String;
       Vida:Integer;
       Genero:String;
       Nivel:Integer;
       Dano:Integer;
       Defesa:Integer;
-    public
-
+  public
       //Getter e Setter
      function getDano:Integer;
      procedure setDano(aDano:Integer);
@@ -25,12 +24,9 @@ interface
      function getVida:Integer;
      procedure setVida(aDefesa:Integer);
 
-    function getGenero:String;
-    Procedure setGenero(aGenero:String);
-
-
-    constructor Create(aDano,aDefesa,aVida:Integer);
-
+     function getGenero:String;
+     Procedure setGenero(aGenero:String);
+     constructor Create(aDano,aDefesa,aVida:Integer);
   end;
 
 
@@ -97,3 +93,4 @@ procedure TPersonagem.setGenero(aGenero: String);
 begin
   Self.Genero := aGenero;
 end;
+end.

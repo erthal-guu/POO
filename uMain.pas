@@ -28,7 +28,7 @@ var
 implementation
 
 {$R *.dfm}
-uses uClasse;
+uses uPersonagem,uPlayer,uBoss;
 
 var Player : TPersonagem;
     Boss : TPersonagem;
